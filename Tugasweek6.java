@@ -22,8 +22,19 @@ public class Tugasweek6{
         rpl = ns.nextDouble();
         
         rataRata = (strukturData + pbo + basisData + algoritma + rpl) / 5;
+        ipk = (rataRata / 100) * 4;
 
-        ipkSederhana = (rataRata / 100) * 4;
+        if (ipk >= 3.75) {
+            predikat = "A (Sangat Baik)";
+        } else if (ipk >= 3.50) {
+            predikat = "AB (Baik Sekali)";
+        } else if (ipk >= 3.00) {
+            predikat = "B (Baik)";
+        } else if (ipk >= 2.50) {
+            predikat = "BC (Cukup)";
+        } else {
+            predikat = "C (Kurang)";
+        }
 
         
 
