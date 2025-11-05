@@ -37,6 +37,10 @@ public class Tugasweek6{
         }
 
         System.out.println("\nRata-rata nilai: " + String.format("%.2f", rataRata));
+        System.out.println("IPK Sederhana  : " + String.format("%.2f", ipk));
+        System.out.println("Predikat       : " + predikat);
+
+
 
 
         
