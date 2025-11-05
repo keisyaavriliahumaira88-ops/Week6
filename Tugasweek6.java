@@ -36,6 +36,9 @@ public class Tugasweek6{
             predikat = "C (Kurang)";
         }
 
+        System.out.println("\nRata-rata nilai: " + String.format("%.2f", rataRata));
+
+
         
 
 
