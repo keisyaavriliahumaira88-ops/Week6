@@ -35,10 +35,16 @@ public class Tugasweek6{
         } else {
             predikat = "C (Kurang)";
         }
-
         System.out.println("\nRata-rata nilai: " + String.format("%.2f", rataRata));
         System.out.println("IPK Sederhana  : " + String.format("%.2f", ipk));
         System.out.println("Predikat       : " + predikat);
+
+        if (ipk < 3.50) {
+        System.out.println("Anda belum memenuhi syarat untuk mendaftar Asisten Dosen.");
+        System.out.println("Minimal predikat A atau AB.");
+        System.exit(0); // Program selesai
+        }
+
 
 
 
