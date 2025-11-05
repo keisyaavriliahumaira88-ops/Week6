@@ -23,6 +23,8 @@ public class Tugasweek6{
         
         rataRata = (strukturData + pbo + basisData + algoritma + rpl) / 5;
 
+        ipkSederhana = (rataRata / 100) * 4;
+
         
 
 
